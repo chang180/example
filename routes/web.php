@@ -53,7 +53,7 @@ Route::get('/whatever_123456789', function (Request $request) {
 
 
 Route::resource('tests', TestController::class);
-Route::resource('tests/{id}', TestController::class);
+// Route::resource('tests/{id}', TestController::class);
 // Route::post('tests/{id}', TestController::class);
 //練習
 //localhost/php/6
